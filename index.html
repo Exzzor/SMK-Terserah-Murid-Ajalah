@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Ajalah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/smk ajalah.ico">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!--JuqueryJS LightSider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js" integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">-->
+</head>
+<body id="home">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light navbarHome fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="img/smk ajalah.png" alt="logosmkajalah">
+                <h1 >SMK Terserah<br>Murid Ajalah</h1>
+            </a>
+            
+            <!--Button Dari Boostrap (Kalau Ibu nya suruh jelasin kasih aja link ini https://getbootstrap.com/docs/4.0/components/navbar/)-->
+            <button class="navbar-toggler hamburger" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#sambutan">Sambutan</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#jurusanajalah">Jurusan</a></li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">More</a>
+                        
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                            <a class="dropdown-item" href="#galeriajalah">Galeri</a>
+                            <div class="dropdown-divider"></div>
+                            <a  class="dropdown-item" href="#artikel">Artikel</a>
+                            <div class="dropdown-divider"></div>
+                            <a   class="dropdown-item" href="#Alamat">Alamat</a>
+                            <div class="dropdown-divider"></div>
+                            <a   class="dropdown-item" href="#kontakkami">Kontak Kami</a>
+                        </div>
+                    </li>
+                </ul>   
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control sm-2" type="search" placeholder="Find Something ?" aria-label="Search">
+                    <button class="btn btn-primary sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--SlideShow-->
+    <ul id="autoWidth" class="cs-hidden">
+        <li class="item-a">
+            <section class="slideshow">
+                <!--<img class="satu" src="img/banner-shd.png" alt="Kerja Team">-->
+                <video class="satu" src="img/jjkelasti.mp4" autoplay loop muted  ></video>
+                <div class="container">
+                    <div class="mainText">
+                        <div class="garis"></div>
+                        <h3>Menghasilkan</h3>
+                        <h1>Kerja Sama Team</h1>
+                    </div>
+                    <h3>Kerja Team Dalam Upaya Kita</h3>
+                </div>
+            </section>
+        </li>
+        <li class="item-a">
+            <section class="slideshow">
+                <img class="dua" src="img/banner-shd.png" alt="Kerja Team">
+                <div class="container">
+                    <div class="mainText">
+                        <div class="garis"></div>
+                        <h3>Menghasilkan</h3>
+                        <h1>Kerendahhatian</h1>
+                    </div>
+                    <h3>Kerendahan Hati Dalam Pencapaian Kita</h3>
+                </div>
+            </section>
+        </li>
+        <li class="item-a">
+            <section class="slideshow">
+                <img class="tiga" src="img/banner-shd.png" alt="Kerja Team">
+                <div class="container">
+                    <div class="mainText">
+                        <div class="garis"></div>
+                        <h3>Menghasilkan</h3>
+                        <h1>Menghormati</h1>
+                    </div>
+                    <h3>Menghormati Satu Sama Lain</h3>
+                </div>
+            </section>
+        </li>
+        <li class="item-a">
+            <section class="slideshow">
+                <img class="empat" src="img/banner-shd.png" alt="Kerja Team">
+                <div class="container">
+                    <div class="mainText">
+                        <div class="garis"></div>
+                        <h3>Menghasilkan</h3>
+                        <h1>Integritas</h1>
+                    </div>
+                    <h3>Integritas Dalam Hubungan Kita</h3>
+                </div>
+            </section>
+        </li>
+        <li class="item-a">
+            <section class="slideshow">
+                <img class="lima" src="img/banner-shd.png" alt="Kerja Team">
+                <div class="container">
+                    <div class="mainText">
+                        <div class="garis"></div>
+                        <h3>Menghasilkan</h3>
+                        <h1>Komitmen</h1>
+                    </div>
+                    <h3>Komitmen Terhadap Pekerjaan Yang Kami Lakukan</h3>
+                </div>
+            </section>
+        </li>
+        <li class="item-a">
+            <section class="slideshow">
+                <img class="enam" src="img/banner-shd.png" alt="Kerja Team">
+                <div class="container">
+                    <div class="mainText">
+                        <div class="garis"></div>
+                        <h3>Menghasilkan</h3>
+                        <h1>Keunggulan</h1>
+                    </div>
+                    <h3>Keunggulan Dalam Apapun Yang Kita Lakukan</h3>
+                </div>
+            </section>
+        </li>
+    </ul>
+    <!--Sambutan-->
+    <div class="sambutan" id="sambutan">
+        <h1>Selamat Datang Di SMK Ajalah</h1>
+        <p>
+            SMK Ajalah Merupakan sekolah yang menciptakan generasi penerus bangsa yang memiliki ambisi membangun Negri 
+        </p>
+    </div>
+    <div class="kepsek">
+        <div class="container">
+            <video src="img/kepsekkratos.mp4" type="video/mp4" autoplay   loop controls ></video> 
+            <!--<img src="img/ahmadkratos.jpeg"  alt="kepsek gue ni boi">-->
+            <div class="visiMisi">
+                <div class="visi">
+                    <h5>VISI KITA</h5>
+                    <h3><b>Sebagai badan perjuangan kebudayaan dan pembangunan masyarakat yang menggunakan pendidikan dalam arti luas sebagai sarana utamanya </b></h3>
+                </div>
+                <div class="misi">
+                    <h5>MISI KITA</h5>
+                    <h3><b>Melestarikan dan mengembangkan kebudayaan Nasional Indonesia. Mewujudkan masyarakat tertib damai salam dan bahagia sesuai masyarakat adil dan makmur berdasarkan Pancasila</b></h3>
+                    <!--<p>Melestarikan dan mengembangkan kebudayaan Nasional Indonesia. Mewujudkan masyarakat tertib damai salam dan bahagia sesuai masyarakat adil dan makmur berdasarkan Pancasila</p>-->
+                </div>
+            </div>
+            <!-- kalau mau di pindahin ke kiri <video src="img/kepsekkratos.mp4" type="video/mp4" autoplay  muted loop controls ></video> -->
+        </div>
+    </div>
+    <!-- jurusan -->
+    <div class="jurusan" id="jurusanajalah">
+        <div class="container">
+            <h1>Jurusan SMK Ajalah</h1>
+            <div class="boxJurusan">
+                <div class="perBox">
+                    <img src="img/coding.jpg" alt="RPL">
+                    <h3><b>Rekayasa Perangkat Lunak</b></h3>
+                </div>
+                <div class="perBox">
+                    <img src="img/tkj.jpg" alt="TKJ">
+                    <h3><b>Teknik Komputer dan Jaringan</b></h3>
+                </div>
+                <div class="perBox">
+                    <img src="img/cybersec.jpg" alt="CB">
+                    <h3><b>Cyber Security</b></h3>
+                </div>
+                <div class="perBox">
+                    <img src="img/iot.jpg" alt="IOT">
+                    <h3><b>Internet Of Things</b></h3>
+                </div>
+                <div class="perBox">
+                    <img src="img/ai.jpg" alt="TKR">
+                    <h3><b>Artificial Intelligence</b></h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+     <!-- Artikel -->
+     <div class="containerArtikelHome container" id="artikel">
+        <h2>Artikel Terbaru</h2>
+        <div class="artikelHome">
+            <a href="https://www.kompasiana.com/arimartono7098/638642c04addee6b9050efa5/menghadapi-dunia-masa-depan-dengan-coding"class="perArtikelHome">
+                <img src="img/artikelcoding.jpg" alt="Foto Artikel">
+                <h3>Menghadapi Dunia Masa Depan dengan Coding</h3>
+                <small>Di tulis oleh : <span>Farhan Kebab</span></small>
+                <p>
+                    Sejak 2 juta tahun yang lalu, manusia purba sudah membuat berbagai macam alat batu untuk membantu mereka 
+                    dalam sehari-hari. Selama 2 juta tahun itu....
+                </p>
+            </a>
+            <a href ="https://www.neeotaku.com/2021/07/hiruzen-korupsi-naruto-dan-gaji-minato.html" class="perArtikelHome">
+                <img src="img/artikel sarutobi.jpg" alt="Foto Artikel">
+                <h3>Apakah Benar Hiruzen Sarutobi Korupsi,Simak Penjelasan Berikut</h3> 
+                <small>Di tulis oleh : <span>Uchiha Asep</span></small>
+                <p>
+                    Hiruzen Sarutobi yang bergelar Hokage ketiga adalah tokoh fiktif dalam serial manga dan anime Naruto. Nama klannya terinspirasi dari nama Sarutobi.....
+                </p>
+            </a>
+            <a href="https://www.urbanasia.com/pacar-ditikung-teman-sendiri-maafkan-atau-hempaskan-U16338" class="perArtikelHome">
+                <img src="img/artikelpemuda.jpg" alt="Foto Artikel">
+                <h3>Dia yang beraksi malah teman nya yang dapat</h3>
+                <small>Di tulis oleh : <span>Kasian Deh lu </span></small>
+                <p>
+                    Pria yang tidak bisa disebut namanya ini melakukan aksi sia sia yang berujung kesedihan "sudah yang saya capek-capek beraksi malah teman saya yang dapat" ucapnya....
+                </p>
+            </a>
+            <a href="https://news.bsi.ac.id/2022/06/29/pembekalan-uji-profesi-sistem-basis-data-wujudkan-lulusan-memiliki-potensi/"class="perArtikelHome">
+                <img src="img/artikel 4.png" alt="Foto Artikel">
+                <h3>Pembekalan Uji Profesi Sistem Basis Data Mahasiswa Program Studi Teknologi Informasi</h3>
+                <small>Di tulis oleh : <span>Muhammad Omen</span></small>
+                <p>
+                    BSINews, Jakarta --Program Studi (prodi) Teknologi Informasi Universitas BSI (Bina Sarana Informatika) bekerja sama dengan Preinexus mempersiapkan lulusan yang.....
+                </p>
+            </a>
+            <a href="https://www.halodoc.com/artikel/single-tetap-bisa-bahagia-ini-tips-untuk-jomblo"class="perArtikelHome">
+                <img src="img/artikel 5.jpg" alt="Foto Artikel">
+                <h3>Single Tetap Bisa Bahagia, Ini Tips untuk Jomblo</h3>
+                <small>Di tulis oleh : <span>Umat Nice Try</span></small>
+                <p>
+                    Menjadi seorang lajang atau kerap disapa jomblo memang memiliki segala kelebihan dan kekurangannya. Kelebihannya adalah kamu tidak terikat komitmen dengan .....
+                </p>
+            </a>
+            <a href="https://kumparan.com/berita-bisnis/6-cara-instan-menjadi-terkenal-di-instagram-tak-perlu-beli-followers-1ulyFNMZDtG" class="perArtikelHome">
+                <img src="img/artikel haewon.jpg" alt="Foto Artikel">
+                <h3>Cara Agar Cepat Terkenal Instan modal GEN</h3>
+                <small>Di tulis oleh : <span>Doni Salahmakan</span></small>
+                <p>
+                    Untuk menjadi terkernal instan yang di inginkan kalian ,salah satu cara nya yaitu ada harus cantik ,body goals sehabis itu upload vidio jedag jedug di tiktok.........
+                </p>
+            </a>
+        </div>
+    </div>
+       <!-- Nyoba Galeri -->
+    <div class="containerGaleriHome container" id="galeriajalah">
+        <h1 align="center" >GALERI</h1>
+        <div class="galeriHome">
+            <a class="perGaleriHome">
+                <img src="img/Fotokelas1.jpeg" alt="Foto Artikel">
+                <h3>Foto Bersama Mas Ibnu</h3>
+            </a>
+            <a class="perGaleriHome">
+                <img src="img/fotokelas2.jpeg" alt="Foto Artikel">
+                <h3>Foto Kelas</h3>
+            </a>
+            <a class="perGaleriHome">
+                <img src="img/fotokelas3.jpeg" alt="Foto Artikel">
+                <h3>Foto Kelas juga Cuma Pakai Batik</h3>
+            </a>
+            <a class="perGaleriHome">
+                <img src="img/gedung-kampus-universitas-bsi-kampus-kramat-kwitang-jakarta_210802171131-663.jpg" alt="Foto Artikel">
+                <h3>Gedung BSI Kramat 98</h3>
+            </a>
+        </div>
+    </div>
+
+    <!--<div class="containerGaleriHome container" id="galeriajalah">
+        <h1 align="center" >GALERI</h1>
+        <div class="galeriHome">
+            <a class="perGaleriHome">
+                <img src="img/meme1.jpg" alt="Foto Artikel">
+                <h3>Sapi Melet</h3>
+            </a>
+            <a class="perGaleriHome">
+                <img src="img/meme2.jpg" alt="Foto Artikel">
+                <h3>Kuda Nyengir</h3>
+            </a>
+            <a class="perGaleriHome">
+                <img src="img/meme3.jpg" alt="Foto Artikel">
+                <h3>Anjing Ningga</h3>
+            </a>
+            <a class="perGaleriHome">
+                <img src="img/meme4.jpg" alt="Foto Artikel">
+                <h3>Sama Anjing Ningga Juga</h3>
+            </a>
+        </div>
+    </div>-->
+
+    <!-- sosmed icon -->
+    <div class="iconBox">
+        <a href="https://chat.whatsapp.com/HQewvIzPKx5GmMO1z7XrDh" class="perIconBox wa">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.facebook.com/groups/416478038539895" class="perIconBox fb">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/bukanmabalagi_/" class="perIconBox ig">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/watch?v=6U4wpZNGTis" class="perIconBox yt">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+
+    <!--Alamat-->
+    <div>
+        <iframe
+            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Universitas bina saranana informatika kramat&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            width="1900" height="400" style="border:0;" allowfullscreen="" loading="lazy" id="Alamat">
+        </iframe>
+    </div>
+ <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4 class="my-4 text-white text-center">Kontak Kami</h4>
+                        <div class="footerContactUs">
+                            <div class="perFooterContactUs">
+                                <i class="fas text-white fa-envelope"></i>
+                                <p class="text-white">smkajalahyangpentingyakin@gmail.com</p>
+                            </div>
+                            <div class="perFooterContactUs">
+                                <i class="fas text-white fa-phone-alt"></i>
+                                <p class="text-white">066666666</p>
+                            </div>
+                            <div class="perFooterContactUs">
+                                <i class="fas text-white fa-road"></i>
+                                <p class="text-white">Jln.Raya Konoha RT.80 RW.099, Kecamatan Bagong, Senegal Utara</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="kontakkami">
+                        <h4 class="my-4 text-center text-white">About</h4>
+                        <div class="footerAbout">
+                            <a href="#sambutan" class="text-white">Sambutan</a>
+                            <a href="#jurusanajalah" class="text-white">Jurusan</a>
+                            <a href="#artikel" class="text-white">Artikel</a>
+                            <a href="#galeriajalah" class="text-white">Galeri</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h4 class="my-4 text-white">Newsletter</h4>
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" type="search" placeholder="Example@gmail.com"
+                                    aria-label="Search">
+                                <button class="btn btn-primary btn-newsletter" type="submit">Kirim</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerCopyright">
+            <p class="text-white">
+                <i class="far fa-copyright"></i><b>2022 By : <span>Kelompok 3</span> Inspired by 
+                <a href="https://www.acsjakarta.sch.id/">ACS Jakarta</a> <span>and</span> <a href="https://github.com/IkkiRama/WEBSITE-SEKOLAH">BySomebody In Github</a></b>
+            </p>
+        </div>  
+    
+    <!--Script Untuk Manggil JS NYA-->
+    <script src="script.js"></script>
+</body>
+</html>
